@@ -22,17 +22,17 @@ namespace CognitiveServices
 		{
 			new Person{
 				Name = "Bruno Scrok Brunoro",
-				PhotoUrl = "https://scontent.fcwb2-2.fna.fbcdn.net/v/t1.0-9/16425807_1257197117695196_5974667038376484870_n.jpg?oh=07c0d23ee1b72f863642b1311961d595&oe=59BD3E2E",
-                City = "Colombo"
+				PhotoUrl = "https://polottoblob.blob.core.windows.net/images/bruno.jpg",
+				City = "Colombo"
 			},
 			new Person{
 				Name = "Angelo Polotto",
-				PhotoUrl = "https://scontent.fcwb2-2.fna.fbcdn.net/v/t1.0-9/13912555_1058029624279359_8288490547081103223_n.jpg?oh=f3585a247a3f727c230adc8c5c67083c&oe=59B36C0B",
+				PhotoUrl = "https://polottoblob.blob.core.windows.net/images/angelo.jpg",
 				City = "São José do Rio Preto"
 			},
 			new Person{
 				Name = "William S Rodiguez",
-				PhotoUrl = "https://scontent.fcwb2-2.fna.fbcdn.net/v/t1.0-9/18557163_10211781986537510_1624888997330142326_n.jpg?oh=be4a07ae3247a8cfa4be12857610c149&oe=59A59C59",
+				PhotoUrl = "https://polottoblob.blob.core.windows.net/images/william.jpg",
 				City = "Curitiba"
 			}
 		};
