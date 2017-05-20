@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<resheader name="resmimetype">
+		<value>text/microsoft-resx</value>
+	</resheader>
+	<resheader name="version">
+		<value>2.0</value>
+	</resheader>
+	<resheader name="reader">
+		<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<resheader name="writer">
+		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<data name="Searching" xml:space="preserve">
+        <value>Procurando</value>
+    </data>
+	<data name="MSCS" xml:space="preserve">
+        <value>Microsoft Cognitive Services</value>
+    </data>
+    <data name="Analyzing" xml:space="preserve">
+        <value>Analyzing</value>
+    </data>
+	<data name="Ok" xml:space="preserve">
+        <value>Ok</value>
+    </data>
+    <data name="Gender" xml:space="preserve">
+        <value>Gender</value>
+    </data>
+	<data name="Age" xml:space="preserve">
+        <value>Age</value>
+    </data>
+	<data name="Glasses" xml:space="preserve">
+        <value>Glasses</value>
+    </data>
+	<data name="Beard" xml:space="preserve">
+        <value>Beard</value>
+    </data>
+	<data name="Moustache" xml:space="preserve">
+        <value>Moustache</value>
+    </data>
+	<data name="Sideburns" xml:space="preserve">
+        <value>Sideburns</value>
+    </data>
+	<data name="Smile" xml:space="preserve">
+        <value>Smile</value>
+    </data>
+    <data name="Initializing" xml:space="preserve">
+        <value>Initializing</value>
+    </data>
+	<data name="Error" xml:space="preserve">
+        <value>Error</value>
+    </data>
+	 <data name="AddFace" xml:space="preserve">
+        <value>Add Face</value>
+    </data>
+    <data name="AddingFace" xml:space="preserve">
+        <value>Adding Face</value>
+    </data>
+	<data name="FaceAdded" xml:space="preserve">
+        <value>Face Added</value>
+    </data>
+	<data name="NotFound" xml:space="preserve">
+        <value>No one was found</value>
+    </data>
+</root>

@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">Cognitive Services</string>
+	<string name="analyze">Analyze</string>
+	<string name="verify">Verify</string>
+	<string name="name">Name</string>
+	<string name="city">City</string>
+</resources>
