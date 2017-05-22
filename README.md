@@ -228,18 +228,18 @@ Obs. 2: Para facilitar, utilizei [essas imagens](https://github.com/angelopolott
 
 ```CSharp
 public List<Person> People { get; } = new List<Person>
-		{
-			new Person{
-				Name = "Maria",
-				PhotoUrl = "https://github.com/angelopolotto/XamarinLabCognitiveServices/blob/master/ImagensParaTestes/2%20-%20Maria.jpg?raw=true",
-                City = "Colombo"
-			},
-			new Person{
-				Name = "José",
-				PhotoUrl = "https://github.com/angelopolotto/XamarinLabCognitiveServices/blob/master/ImagensParaTestes/3%20-%20Jose.jpg?raw=true",
-				City = "Curtiba"
-			}
-		};
+{
+	new Person{
+		Name = "Maria",
+		PhotoUrl = "https://github.com/angelopolotto/XamarinLabCognitiveServices/blob/master/ImagensParaTestes/2%20-%20Maria.jpg?raw=true",
+		City = "Colombo"
+	},
+	new Person{
+		Name = "José",
+		PhotoUrl = "https://github.com/angelopolotto/XamarinLabCognitiveServices/blob/master/ImagensParaTestes/3%20-%20Jose.jpg?raw=true",
+		City = "Curtiba"
+	}
+};
 ```
 
 6. Selecione uma plataforma que deseja executar (Android ou iOS) o projeto e clique em __Run__. As imagens a seguir mostram o aplicativo em um simulador de iPhone:
