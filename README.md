@@ -206,27 +206,45 @@ FaceServiceClient = new FaceServiceClient("SeuToken");
 await FaceServiceClient.CreatePersonGroupAsync(_personGroupId, "NomeDoGrupoDePessoas");
 ```
 
-5. Adicone pessoas a sua lista. As fotos podem ser pegas do Facebook clicando com o botão direito e copiando a URL da imagem, desde que, a imagem seja pública:
+5. Adicone pessoas a sua lista. As fotos podem ser pegas do Facebook clicando com o botão direito e copiando a URL da imagem, desde que, a imagem seja pública.
 
 Obs.: Para testar o aplicativo, precisa-se de uma foto contendo todas as pessoas da lista. Para facilitar, pode-se pegar URL de fotos do Facebook das pessoas presentes no evento e tirar uma foto juntos para testar.
+
+Obs. 2: Para facilitar, utilizei [essas imagens](https://github.com/angelopolotto/XamarinLabCognitiveServices/tree/master/ImagensParaTestes), retiradas do [repositório da Microsoft](https://github.com/Microsoft/Cognitive-Face-Windows/tree/master/Data), para facilitar os testes.
 
 ```CSharp
 public List<Person> People { get; } = new List<Person>
 		{
 			new Person{
-				Name = "Fulano",
-				PhotoUrl = "URL de uma foto de acesso publica no facebook",
-                City = "Cidade de nascimento"
+				Name = "Maria",
+				PhotoUrl = "https://github.com/angelopolotto/XamarinLabCognitiveServices/blob/master/ImagensParaTestes/2%20-%20Maria.jpg?raw=true",
+                City = "Colombo"
 			},
 			new Person{
-				Name = "Ciclano",
-				PhotoUrl = "URL de uma foto de acesso publica no facebook",
-				City = "Cidade de nasciemento"
+				Name = "José",
+				PhotoUrl = "https://github.com/angelopolotto/XamarinLabCognitiveServices/blob/master/ImagensParaTestes/3%20-%20Jose.jpg?raw=true",
+				City = "Curtiba"
 			}
 		};
 ```
 
-6. Selecione uma plataforma que deseja executar (Android ou iOS) o projeto e clique em __Run__:
+6. Selecione uma plataforma que deseja executar (Android ou iOS) o projeto e clique em __Run__. As imagens a seguir mostram o aplicativo em um simulador de iPhone:
+
+* Reconhecimento das pessoas na foto:
+
+<img src="Imagens/8.png"/>
+
+<img src="Imagens/9.png"/>
+
+<img src="Imagens/10.png"/>
+
+* Analise do rosto de uma pessoa em uma foto qualquer:
+
+<img src="Imagens/11.png"/>
+
+<img src="Imagens/12.png"/>
+
+<img src="Imagens/13.png"/>
 
 7. Pontos importantes do código criado:
 

@@ -21,19 +21,14 @@ namespace CognitiveServices
 		public List<Person> People { get; } = new List<Person>
 		{
 			new Person{
-				Name = "Bruno Scrok Brunoro",
-				PhotoUrl = "https://polottoblob.blob.core.windows.net/images/bruno.jpg",
+				Name = "Maria",
+				PhotoUrl = "https://github.com/angelopolotto/XamarinLabCognitiveServices/blob/master/ImagensParaTestes/2%20-%20Maria.jpg?raw=true",
 				City = "Colombo"
 			},
 			new Person{
-				Name = "Angelo Polotto",
-				PhotoUrl = "https://polottoblob.blob.core.windows.net/images/angelo.jpg",
-				City = "São José do Rio Preto"
-			},
-			new Person{
-				Name = "William S Rodiguez",
-				PhotoUrl = "https://polottoblob.blob.core.windows.net/images/william.jpg",
-				City = "Curitiba"
+				Name = "José",
+				PhotoUrl = "https://github.com/angelopolotto/XamarinLabCognitiveServices/blob/master/ImagensParaTestes/3%20-%20Jose.jpg?raw=true",
+				City = "Curtiba"
 			}
 		};
 
