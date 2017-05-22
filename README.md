@@ -12,6 +12,9 @@ Pastas:
 * Imagens: Imagens utilizadas no arquivo README.md;
 * ImagensParaTestes: Imange utilizadas para testar o aplicativo. Foram retiradas [desse repositório](https://github.com/Microsoft/Cognitive-Face-Windows/tree/master/Data) .
 
+# Todo
+
+* Arrumar problemas de compilação para a o Android no Visual Studio Windows.
 
 # Requisitos
 
