@@ -1,11 +1,25 @@
 # Exercício utilizando Xamarin & Microsoft Cognitive Services
 
-## Requisitos
+O objetivo desse laboratório é criar um aplicativo utilizando o framework __Xamarin__ e a ferramenta __Face API Service__ do __Cognitive Services__ para analisar e reconhecer rostos.
 
-* Conta no Microsoft Azure
-* Visual Studio 2017 com os pacotes do Xamarin instalados
 
-## Criando um __Face API Service__
+# Estrutura do repositório
+
+Pastas:
+
+* CognitiveServicesLabIncompleto: Pasta contendo o projeto para ser utilizado durante o laboratório;
+* CognitiveServicesCompleto: Pasta contendo o projeto completo. Serve como base para quem possui dúvidas. O projeto pode não funcionar por conta da expiração do serviço de backend no Azure.
+* Imagens: Imagens utilizadas no arquivo README.md;
+* ImagensParaTestes: Imange utilizadas para testar o aplicativo. Foram retiradas [desse repositório](https://github.com/Microsoft/Cognitive-Face-Windows/tree/master/Data) .
+
+
+# Requisitos
+
+* Conta no Microsoft Azure;
+* Visual Studio 2017 com os pacotes do Xamarin instalados ou Visual Studio for Mac;
+* Emulador ou dispositivo Android;
+
+# Criando um serviço do tipo __Face API Service__
 
 1. No portal do Azure, clique em __New__:
 
@@ -33,9 +47,9 @@
 
 <img src="Imagens/7.png"/>
 
-## Aplicativo de testes com o Xamarin
+# Aplicativo de testes com o Xamarin
 
-O código da biblioteca que será utilizada para acessar o __Cognitive Face__ pode ser encontrado [aqui](https://github.com/Microsoft/Cognitive-Face-Windows/tree/master/ClientLibrary)
+O código da biblioteca que será utilizada para acessar o __Cognitive Face__ pode ser encontrado [nesse repositório](https://github.com/Microsoft/Cognitive-Face-Windows/tree/master/ClientLibrary) .
 
 1. Copie o trecho e código abaixo e cole no arquivo __CognitiveSercies.Service/Person.cs__:
 
